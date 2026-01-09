@@ -1,0 +1,1 @@
+/*  Generatory liczb losowych, funkcje pomocnicze. */
