@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     double **map;
     char *filename=argv[1];
 
-    load_map(filename, &map, &height, &width);
+    load_map(filename, &map,&width,&height);
     
     //Wyświetlanie mapy to można usunąć później, tylko takie do obczajenia co i jak
     for(int i=0;i<height;i++){
