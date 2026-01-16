@@ -34,5 +34,5 @@ double get_map_value(double **map, int x, int y, int width, int height){
     if(x<0 || x>=width || y<0 || y>=height){
         return -1000000000.0;
     }
-    return map[x][y];
+    return map[y][x];
 }
