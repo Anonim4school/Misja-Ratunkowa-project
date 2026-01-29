@@ -103,5 +103,3 @@ void free_swarm(Swarm *s){
     }
 }
 
-
-
